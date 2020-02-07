@@ -1,0 +1,12 @@
+Skriv ett program där du skapar egna “cookies” (fast du sparar dem på din server).
+Definiera en endpoint där en användare kan logga in genom att enbart skriva in sitt
+användarnamn.
+localhost/login/hans
+samt en där användaren kan logga ut
+localhost/logout/hans
+Vid en inloggning skrivs nödvändig information (inloggningstid) i en textfil (som skapas om
+den inte finns). Låt textfilerna ha det namn som användaren har.
+Vid en utloggning skrivs nödvändig information (utloggningstid) i samma textfil. Se till att du
+inte skriver över den gamla informationen.
+Startsidan (localhost) ska innehålla publik information, medan login-adressen innehåller info
+om senaste inloggning (alltså den föregående)
